@@ -1,1 +1,135 @@
-<p>home works!</p>
+<html>
+<head>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      width: 90%;
+      max-width: 100%;
+      margin: 0px;
+    }
+
+    .banner-title {
+      font-size: 30px;
+      font-weight: bold;
+      margin-bottom: 10px;
+      margin-top: 10px;
+    }
+
+    .banner-subtitle {
+      font-size: 20px;
+      margin-bottom: 10px;
+      margin-top: 10px;
+    }
+
+    .banner-button {
+      background: #61677A;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      padding: 15px 25px;
+      font-size: 18px;
+      cursor: pointer;
+    }
+
+    .banner-button:hover {
+      background: #272829;
+    }
+
+    .products {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-gap: 20px;
+      padding: 40px 0;
+    }
+
+    .product {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      padding: 20px;
+    }
+
+    .product-image {
+      width: 200px;
+      height: 200px;
+      object-fit: contain;
+    }
+
+    .product-name {
+      font-size: 18px;
+      font-weight: bold;
+      margin-top: 10px;
+    }
+
+    .product-price {
+      font-size: 16px;
+      color: #61677A;
+      margin-top: 5px;
+    }
+
+    .product-button {
+      background: #61677A;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      padding: 10px 15px;
+      margin-top: 10px;
+      cursor: pointer;
+    }
+
+    .product-button:hover {
+      background: #272829;
+    }
+
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    
+    <div class="banner">
+      <div class="banner-text">
+        <h1 class="banner-title">The Best Tech Deals</h1>
+        <p class="banner-subtitle">Shop now and save up to 50% on selected items</p>
+        <hr class="featurette-divider mt-3"><br>
+        <button class="banner-button" >Shop Now</button>
+      </div>
+    </div>
+    <div class="products">
+      <div class="product">
+        <img src=".\assets\laptop.jpg" class="product-image">
+        <p class="product-name">Laptops</p>
+        <p class="product-price">....</p>
+        <button class="product-button">See More</button>
+      </div>
+      <div class="product">
+        <img src=".\assets\smartphone.jpg" class="product-image">
+        <p class="product-name">Smartphones</p>
+        <p class="product-price">....</p>
+        <button class="product-button">See More</button>
+      </div>
+      <div class="product">
+        <img src=".\assets\headphones.jpg" class="product-image">
+        <p class="product-name">Headphones</p>
+        <p class="product-price">....</p>
+        <button class="product-button">See More</button>
+      </div>
+      <div class="product">
+        <img src=".\assets\smartwatch.jpg" class="product-image">
+        <p class="product-name">Smartwatches</p>
+        <p class="product-price"> .... </p>
+        <button class="product-button">See More</button>
+      </div>
+    </div>
+    
+  </div>
+</body>
+</html>
+
