@@ -12,7 +12,7 @@ import { LaptopComponent } from './navbarLinks/laptop/laptop.component';
 import { SmartwatchesComponent } from './navbarLinks/smartwatches/smartwatches.component';
 import { SmartphonesComponent } from './navbarLinks/smartphones/smartphones.component';
 import { HeadphonesComponent } from './navbarLinks/headphones/headphones.component';
-import { ProductsListComponent } from './navbarLinks/products-list/products-list.component';
+import { DashboardComponent } from './navbarLinks/dashboard/dashboard.component';
 
 
 
@@ -28,7 +28,7 @@ import { ProductsListComponent } from './navbarLinks/products-list/products-list
     SmartwatchesComponent,
     SmartphonesComponent,
     HeadphonesComponent,
-    ProductsListComponent
+    DashboardComponent
    
   ],
   imports: [

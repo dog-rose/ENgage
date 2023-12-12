@@ -9,6 +9,7 @@ import { LaptopComponent } from './navbarLinks/laptop/laptop.component';
 import { SmartwatchesComponent } from './navbarLinks/smartwatches/smartwatches.component';
 import { SmartphonesComponent } from './navbarLinks/smartphones/smartphones.component';
 import { HeadphonesComponent } from './navbarLinks/headphones/headphones.component';
+import { DashboardComponent } from './navbarLinks/dashboard/dashboard.component';
 
 const routes: Routes = [
   {path: 'signIN', component: SignINComponent},
@@ -19,7 +20,8 @@ const routes: Routes = [
     {path: 'laptop', component: LaptopComponent ,outlet:"product"},
     {path: 'smartwatch', component: SmartwatchesComponent ,outlet:"product"},
     {path: 'smartphone', component: SmartphonesComponent,outlet:"product"},
-    {path: 'headphone', component: HeadphonesComponent,outlet:"product"}
+    {path: 'headphone', component: HeadphonesComponent,outlet:"product"},
+    {path: 'dashboard', component: DashboardComponent}
   
   
 

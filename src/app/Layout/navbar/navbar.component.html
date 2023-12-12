@@ -1,68 +1,18 @@
 
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-    }
-
-    .navbar {
-      background-color: #898B8A;
-      color: #fff;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 5px 10px;
-      height: 55px;
-    }
-
-    .logo img {
-      width: 45px; 
-      height: 45px; 
-      margin-right: 10px;
-      border-radius: 60%;
-    }
-
-    .store-name {
-      font-size: 1.2em;
-      font-weight: bold;
-      margin-right: 20px;
-
-    }
-
-    .nav-links {
-      display: flex;
-    }
-
-    .nav-link {
-      color: #fff;
-      text-decoration: none;
-      margin-right: 10px;
-      margin-left: 10px;
-    }
-
-    .search-bar {
-      padding: 5px;
-      margin-right: 10px;
-      margin-left: 10px;
-      width: 400px;
-    }
-
-    .user-actions {
-      margin-left: auto;
-    }
-  </style>
+  
 
   <nav class="navbar navbar1 navbar-expand-lg">
     <!-- Logo & Store Name -->
     <div class="logo">
-      <img src=".\assets\ENgageLogo.png" alt="Store Logo">
-      <span class="store-name" >ENgage Tech Store</span>
+      <a routerLink="home"><img src=".\assets\ENgageLogo.png" alt="Store Logo"></a>
+      <span class="store-name" >ENgage </span>
     </div>
     <!-- Navbar Links & Search bar -->
     <div class="nav-links">
      <a href="#" class="nav-link" routerLink="home">Home</a>
       <a href="#" class="nav-link" routerLink="products">Products</a>
       <a class="nav-link" routerLink="aboutUS">About Us</a>
+      <a class="nav-link" routerLink="dashboard">Dashboard</a>
      <input type="text" placeholder="Search" class="search-bar">
       
       
