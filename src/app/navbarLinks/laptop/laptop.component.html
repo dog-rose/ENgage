@@ -88,11 +88,44 @@
   </style>
 </head>
 <body>
-  <app-products-list></app-products-list>
-    <router-outlet name="product"></router-outlet>
- 
+  <div class="container">
     
+    <ul class="categories">
+        
+      <li><a  class="category active" routerLink="laptop" >Laptops</a></li>
+      <li><a  class="category" routerLink="smartphone">Smartphones</a></li>
+      <li><a  class="category" routerLink="headphone">Headphones</a></li>
+      <li><a  class="category" routerLink="smartwatch">Smartwatches</a></li>
     
+    </ul>
+    </div>
+    
+    <div class="products">
+        <div class="product">
+          <img src=".\assets\laptop1.jpg" class="product-image">
+          <p class="product-name">ASUS</p>
+          <p class="product-price">$999</p>
+          <button class="product-button">Add to Cart</button>
+        </div>
+        <div class="product">
+          <img src=".\assets\laptop2.jpg" class="product-image">
+          <p class="product-name">White Crown Azuz</p>
+          <p class="product-price">$899</p>
+          <button class="product-button">Add to Cart</button>
+        </div>
+        <div class="product">
+          <img src=".\assets\laptop3.jpg" class="product-image">
+          <p class="product-name">Conoce la ROG Strix G531</p>
+          <p class="product-price">$799</p>
+          <button class="product-button">Add to Cart</button>
+        </div>
+        <div class="product">
+          <img src=".\assets\laptop4.jpg" class="product-image">
+          <p class="product-name">MSI</p>
+          <p class="product-price">$699</p>
+          <button class="product-button">Add to Cart</button>
+        </div>
+      </div>
      
       
     
