@@ -17,15 +17,12 @@ const routes: Routes = [
   {path: 'aboutUS', component: AboutUSComponent},
   {path: 'home', component: HomeComponent},
   {path: 'products', component: ProductsComponent},
-    {path: 'laptop', component: LaptopComponent ,outlet:"product"},
-    {path: 'smartwatch', component: SmartwatchesComponent ,outlet:"product"},
-    {path: 'smartphone', component: SmartphonesComponent,outlet:"product"},
-    {path: 'headphone', component: HeadphonesComponent,outlet:"product"},
+    {path: 'products/laptop', component: LaptopComponent },
+    {path: 'products/smartwatch', component: SmartwatchesComponent },
+    {path: 'products/smartphone', component: SmartphonesComponent},
+    {path: 'products/headphone', component: HeadphonesComponent},
     {path: 'dashboard', component: DashboardComponent}
-  
-  
 
- 
 ];
 
 @NgModule({

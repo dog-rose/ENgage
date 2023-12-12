@@ -1,1 +1,133 @@
-hhh
+<html>
+<head>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      width: 80%;
+      max-width: 1200px;
+      margin: 0 ;
+    }
+
+    .categories {
+      display: flex;
+      justify-content: center;
+      list-style: none;
+      padding: 10px 0;
+      border-bottom: 1px solid #ccc;
+    }
+
+    .category {
+      margin-right: 10px;
+      font-size: 18px;
+      color: #333;
+      text-decoration: none;
+    }
+
+    .category:hover {
+      color: #272829;
+    }
+
+    .category.active {
+      color: #272829;
+      font-weight: bold;
+    }
+
+    .products {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-gap: 20px;
+      padding: 40px 0;
+    }
+
+    .product {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      padding: 20px;
+    }
+
+    .product-image {
+      width: 200px;
+      height: 200px;
+      object-fit: contain;
+    }
+
+    .product-name {
+      font-size: 18px;
+      font-weight: bold;
+      margin-top: 10px;
+    }
+
+    .product-price {
+      font-size: 16px;
+      color: #61677A;
+      margin-top: 5px;
+    }
+
+    .product-button {
+      background: #61677A;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      padding: 10px 15px;
+      margin-top: 10px;
+      cursor: pointer;
+    }
+
+    .product-button:hover {
+      background: #272829;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    
+    <ul class="categories">
+        
+      <li><a  class="category " routerLink="laptop" >Laptops</a></li>
+      <li><a  class="category " routerLink="smartphone">Smartphones</a></li>
+      <li><a  class="category " routerLink="headphone">Headphones</a></li>
+      <li><a  class="category active" routerLink="smartwatch">Smartwatches</a></li>
+    
+    </ul>
+    </div>
+    
+    <div class="products">
+        <div class="product">
+          <img src=".\assets\smartwatch1.jpg" class="product-image">
+          <p class="product-name">Amazfit GTS Smartwatch</p>
+          <p class="product-price">$49</p>
+          <button class="product-button">Add to Cart</button>
+        </div>
+        <div class="product">
+          <img src=".\assets\smartwatch2.jpg" class="product-image">
+          <p class="product-name">Timex Touchscreen (Model: TW5M43300)</p>
+          <p class="product-price">$89</p>
+          <button class="product-button">Add to Cart</button>
+        </div>
+        <div class="product">
+          <img src=".\assets\smartwatch3.jpg" class="product-image">
+          <p class="product-name">Amazfit GTS2 Mini</p>
+          <p class="product-price">$79</p>
+          <button class="product-button">Add to Cart</button>
+        </div>
+        <div class="product">
+          <img src=".\assets\smartwatch4.jpg" class="product-image">
+          <p class="product-name"> Amazfit GTS2 Mini</p>
+          <p class="product-price">$69</p>
+          <button class="product-button">Add to Cart</button>
+        </div>
+      </div>
+     
+      
+    
+</body>
+</html>
